@@ -141,20 +141,20 @@
 		8737FFCF208D75C100E8E184 /* TipView */ = {
 			isa = PBXGroup;
 			children = (
+				8737FFD7208D75C100E8E184 /* TooltipManager.h */,
 				8737FFD0208D75C100E8E184 /* TooltipManager.m */,
+				8737FFD8208D75C100E8E184 /* Tooltip.h */,
 				8737FFD1208D75C100E8E184 /* Tooltip.m */,
+				8737FFDA208D75C100E8E184 /* UIViewController+TipView.h */,
+				8737FFD4208D75C100E8E184 /* UIViewController+TipView.m */,
+				8737FFDD208D75C100E8E184 /* CHPopTipViewMarkView.h */,
 				8737FFD2208D75C100E8E184 /* CHPopTipViewMarkView.m */,
 				8737FFD3208D75C100E8E184 /* CHPopTipView.h */,
-				8737FFD4208D75C100E8E184 /* UIViewController+TipView.m */,
-				8737FFD5208D75C100E8E184 /* UIView+TipView.m */,
-				8737FFD6208D75C100E8E184 /* TooltipFlow.m */,
-				8737FFD7208D75C100E8E184 /* TooltipManager.h */,
-				8737FFD8208D75C100E8E184 /* Tooltip.h */,
-				8737FFD9208D75C100E8E184 /* TooltipFlow.h */,
-				8737FFDA208D75C100E8E184 /* UIViewController+TipView.h */,
-				8737FFDB208D75C100E8E184 /* UIView+TipView.h */,
 				8737FFDC208D75C100E8E184 /* CHPopTipView.m */,
-				8737FFDD208D75C100E8E184 /* CHPopTipViewMarkView.h */,
+				8737FFD9208D75C100E8E184 /* TooltipFlow.h */,
+				8737FFD6208D75C100E8E184 /* TooltipFlow.m */,
+				8737FFDB208D75C100E8E184 /* UIView+TipView.h */,
+				8737FFD5208D75C100E8E184 /* UIView+TipView.m */,
 			);
 			name = TipView;
 			path = ../TipView;

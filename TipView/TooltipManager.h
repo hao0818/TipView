@@ -17,6 +17,7 @@
  */
 + (TooltipManager*)sharedInstance;
 
+- (void)addFlow:(NSString *)flowID withTips:(NSArray<NSString *> *)tips;
 - (void)startFlowIfNeeded:(UIViewController *)activity flowID:(NSString *)flowID;
 - (BOOL)canShowNextTooltip:(UIViewController *)activity flowID:(NSString *)flowID;
 - (void)onFlowDone:(TooltipFlow *)flow;

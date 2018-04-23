@@ -331,36 +331,34 @@
     }
     
     if (pointDirection == PointDirectionDown) {
-        __weak typeof(self) wSelf = self;
         [self.counter mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(wSelf.mas_left).with.offset(12).priorityLow();
-            make.bottom.equalTo(wSelf.mas_bottom).with.offset(-12-pointerSize).priorityLow();
+            make.left.equalTo(self.mas_left).with.offset(12).priorityLow();
+            make.bottom.equalTo(self.mas_bottom).with.offset(-12-pointerSize).priorityLow();
             make.width.greaterThanOrEqualTo(@(20)).priorityLow();
             make.height.equalTo(@(30)).priorityLow();
 
         }];
         
         [self.next mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.right.equalTo(wSelf.mas_right).with.offset(-12).priorityLow();
-            make.bottom.equalTo(wSelf.mas_bottom).with.offset(-12-pointerSize).priorityLow();
+            make.right.equalTo(self.mas_right).with.offset(-12).priorityLow();
+            make.bottom.equalTo(self.mas_bottom).with.offset(-12-pointerSize).priorityLow();
             make.width.greaterThanOrEqualTo(@(20)).priorityLow();
             make.height.equalTo(@(30)).priorityLow();
 
         }];
 
     }else{
-        __weak typeof(self) wSelf = self;
         [self.counter mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.equalTo(wSelf.mas_left).with.offset(12).priorityLow();
-            make.bottom.equalTo(wSelf.mas_bottom).with.offset(-12).priorityLow();
+            make.left.equalTo(self.mas_left).with.offset(12).priorityLow();
+            make.bottom.equalTo(self.mas_bottom).with.offset(-12).priorityLow();
             make.width.greaterThanOrEqualTo(@(20)).priorityLow();
             make.height.equalTo(@(30)).priorityLow();
 
         }];
         
         [self.next mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.right.equalTo(wSelf.mas_right).with.offset(-12).priorityLow();
-            make.bottom.equalTo(wSelf.mas_bottom).with.offset(-12).priorityLow();
+            make.right.equalTo(self.mas_right).with.offset(-12).priorityLow();
+            make.bottom.equalTo(self.mas_bottom).with.offset(-12).priorityLow();
             make.width.greaterThanOrEqualTo(@(20)).priorityLow();
             make.height.equalTo(@(30)).priorityLow();
 

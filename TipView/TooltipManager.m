@@ -80,14 +80,28 @@ static bool isFirstAccess = YES;
     }
     self = [super init];
     self.userDefaults = [NSUserDefaults standardUserDefaults];
-    [self makeFlows];
+//    [self makeFlows];
     return self;
 }
 
-- (void)makeFlows{
-    self.flows = [@{} mutableCopy];
-    self.flows[@"test_1"] = add(@"test_1");
+- (NSMutableDictionary *)flows{
+    if (!_flows) {
+        _flows = [@{} mutableCopy];
+    }
+    return _flows;
+}
 
+- (void)addFlow:(NSString *)flowID withTips:(NSArray<NSString *> *)tips{
+    TooltipFlow *flow = [[TooltipFlow alloc] initWithFlowID:flowID];
+
+    for (NSString *tipID in tips) {
+        [flow addTooltip:[[Tooltip alloc] initWithFlow:flow res:nil anchorViewId:tipID]];
+    }
+    [self.flows setObject:flow forKey:flowID];
+}
+
+- (void)makeFlows{
+    self.flows[@"test_1"] = add(@"test_1");
 }
 
 TooltipFlow * add(NSString *str){

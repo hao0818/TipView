@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "TooltipManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[TooltipManager sharedInstance] addFlow:@"test_1" withTips:@[@"tip_test", @"tip_test2"]];
     return YES;
 }
 
