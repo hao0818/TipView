@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8737FFDE208D75C100E8E184 /* TooltipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737FFD0208D75C100E8E184 /* TooltipManager.m */; };
+		8737FFDF208D75C100E8E184 /* Tooltip.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737FFD1208D75C100E8E184 /* Tooltip.m */; };
+		8737FFE0208D75C100E8E184 /* CHPopTipViewMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737FFD2208D75C100E8E184 /* CHPopTipViewMarkView.m */; };
+		8737FFE1208D75C100E8E184 /* UIViewController+TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737FFD4208D75C100E8E184 /* UIViewController+TipView.m */; };
+		8737FFE2208D75C100E8E184 /* UIView+TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737FFD5208D75C100E8E184 /* UIView+TipView.m */; };
+		8737FFE3208D75C100E8E184 /* TooltipFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737FFD6208D75C100E8E184 /* TooltipFlow.m */; };
+		8737FFE4208D75C100E8E184 /* CHPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8737FFDC208D75C100E8E184 /* CHPopTipView.m */; };
+		87DC2410207CEF2B00A077BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC240F207CEF2B00A077BB /* AppDelegate.m */; };
+		87DC2413207CEF2B00A077BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2412207CEF2B00A077BB /* ViewController.m */; };
+		87DC2416207CEF2B00A077BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC2414207CEF2B00A077BB /* Main.storyboard */; };
+		87DC2418207CEF2B00A077BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DC2417207CEF2B00A077BB /* Assets.xcassets */; };
+		87DC241B207CEF2B00A077BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DC2419207CEF2B00A077BB /* LaunchScreen.storyboard */; };
+		87DC241E207CEF2B00A077BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC241D207CEF2B00A077BB /* main.m */; };
+		87DC2428207CEF2B00A077BB /* TipViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2427207CEF2B00A077BB /* TipViewDemoTests.m */; };
+		87DC2433207CEF2B00A077BB /* TipViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2432207CEF2B00A077BB /* TipViewDemoUITests.m */; };
+		87DC2473207CF12C00A077BB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 87DC2457207CF12C00A077BB /* LICENSE */; };
+		87DC2474207CF12C00A077BB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC245A207CF12C00A077BB /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		87DC2475207CF12C00A077BB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2463207CF12C00A077BB /* ViewController+MASAdditions.m */; };
+		87DC2476207CF12C00A077BB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2467207CF12C00A077BB /* MASCompositeConstraint.m */; };
+		87DC2477207CF12C00A077BB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2468207CF12C00A077BB /* MASConstraintMaker.m */; };
+		87DC2478207CF12C00A077BB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2469207CF12C00A077BB /* MASLayoutConstraint.m */; };
+		87DC2479207CF12C00A077BB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC246A207CF12C00A077BB /* NSArray+MASAdditions.m */; };
+		87DC247A207CF12C00A077BB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC246B207CF12C00A077BB /* View+MASAdditions.m */; };
+		87DC247B207CF12C00A077BB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC246E207CF12C00A077BB /* MASConstraint.m */; };
+		87DC247C207CF12C00A077BB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2470207CF12C00A077BB /* MASViewConstraint.m */; };
+		87DC247D207CF12C00A077BB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DC2471207CF12C00A077BB /* MASViewAttribute.m */; };
+		87DC247E207CF12C00A077BB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 87DC2472207CF12C00A077BB /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87DC2424207CEF2B00A077BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DC2403207CEF2B00A077BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87DC240A207CEF2B00A077BB;
+			remoteInfo = TipViewDemo;
+		};
+		87DC242F207CEF2B00A077BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DC2403207CEF2B00A077BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87DC240A207CEF2B00A077BB;
+			remoteInfo = TipViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8737FFD0208D75C100E8E184 /* TooltipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TooltipManager.m; sourceTree = "<group>"; };
+		8737FFD1208D75C100E8E184 /* Tooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tooltip.m; sourceTree = "<group>"; };
+		8737FFD2208D75C100E8E184 /* CHPopTipViewMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPopTipViewMarkView.m; sourceTree = "<group>"; };
+		8737FFD3208D75C100E8E184 /* CHPopTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPopTipView.h; sourceTree = "<group>"; };
+		8737FFD4208D75C100E8E184 /* UIViewController+TipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TipView.m"; sourceTree = "<group>"; };
+		8737FFD5208D75C100E8E184 /* UIView+TipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TipView.m"; sourceTree = "<group>"; };
+		8737FFD6208D75C100E8E184 /* TooltipFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TooltipFlow.m; sourceTree = "<group>"; };
+		8737FFD7208D75C100E8E184 /* TooltipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TooltipManager.h; sourceTree = "<group>"; };
+		8737FFD8208D75C100E8E184 /* Tooltip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tooltip.h; sourceTree = "<group>"; };
+		8737FFD9208D75C100E8E184 /* TooltipFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TooltipFlow.h; sourceTree = "<group>"; };
+		8737FFDA208D75C100E8E184 /* UIViewController+TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TipView.h"; sourceTree = "<group>"; };
+		8737FFDB208D75C100E8E184 /* UIView+TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TipView.h"; sourceTree = "<group>"; };
+		8737FFDC208D75C100E8E184 /* CHPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPopTipView.m; sourceTree = "<group>"; };
+		8737FFDD208D75C100E8E184 /* CHPopTipViewMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPopTipViewMarkView.h; sourceTree = "<group>"; };
+		87DC240B207CEF2B00A077BB /* TipViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC240E207CEF2B00A077BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87DC240F207CEF2B00A077BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87DC2411207CEF2B00A077BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87DC2412207CEF2B00A077BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87DC2415207CEF2B00A077BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87DC2417207CEF2B00A077BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87DC241A207CEF2B00A077BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87DC241C207CEF2B00A077BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DC241D207CEF2B00A077BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87DC2423207CEF2B00A077BB /* TipViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC2427207CEF2B00A077BB /* TipViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewDemoTests.m; sourceTree = "<group>"; };
+		87DC2429207CEF2B00A077BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DC242E207CEF2B00A077BB /* TipViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DC2432207CEF2B00A077BB /* TipViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipViewDemoUITests.m; sourceTree = "<group>"; };
+		87DC2434207CEF2B00A077BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DC2457207CF12C00A077BB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		87DC2459207CF12C00A077BB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		87DC245A207CF12C00A077BB /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		87DC245B207CF12C00A077BB /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		87DC245C207CF12C00A077BB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		87DC245D207CF12C00A077BB /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		87DC245E207CF12C00A077BB /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		87DC245F207CF12C00A077BB /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		87DC2460207CF12C00A077BB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		87DC2461207CF12C00A077BB /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		87DC2462207CF12C00A077BB /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		87DC2463207CF12C00A077BB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		87DC2464207CF12C00A077BB /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		87DC2465207CF12C00A077BB /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		87DC2466207CF12C00A077BB /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		87DC2467207CF12C00A077BB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		87DC2468207CF12C00A077BB /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		87DC2469207CF12C00A077BB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		87DC246A207CF12C00A077BB /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		87DC246B207CF12C00A077BB /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		87DC246C207CF12C00A077BB /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		87DC246D207CF12C00A077BB /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		87DC246E207CF12C00A077BB /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		87DC246F207CF12C00A077BB /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		87DC2470207CF12C00A077BB /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		87DC2471207CF12C00A077BB /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		87DC2472207CF12C00A077BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87DC2408207CEF2B00A077BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC2420207CEF2B00A077BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC242B207CEF2B00A077BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8737FFCF208D75C100E8E184 /* TipView */ = {
+			isa = PBXGroup;
+			children = (
+				8737FFD0208D75C100E8E184 /* TooltipManager.m */,
+				8737FFD1208D75C100E8E184 /* Tooltip.m */,
+				8737FFD2208D75C100E8E184 /* CHPopTipViewMarkView.m */,
+				8737FFD3208D75C100E8E184 /* CHPopTipView.h */,
+				8737FFD4208D75C100E8E184 /* UIViewController+TipView.m */,
+				8737FFD5208D75C100E8E184 /* UIView+TipView.m */,
+				8737FFD6208D75C100E8E184 /* TooltipFlow.m */,
+				8737FFD7208D75C100E8E184 /* TooltipManager.h */,
+				8737FFD8208D75C100E8E184 /* Tooltip.h */,
+				8737FFD9208D75C100E8E184 /* TooltipFlow.h */,
+				8737FFDA208D75C100E8E184 /* UIViewController+TipView.h */,
+				8737FFDB208D75C100E8E184 /* UIView+TipView.h */,
+				8737FFDC208D75C100E8E184 /* CHPopTipView.m */,
+				8737FFDD208D75C100E8E184 /* CHPopTipViewMarkView.h */,
+			);
+			name = TipView;
+			path = ../TipView;
+			sourceTree = "<group>";
+		};
+		87DC2402207CEF2B00A077BB = {
+			isa = PBXGroup;
+			children = (
+				8737FFCF208D75C100E8E184 /* TipView */,
+				87DC2456207CF12C00A077BB /* Masonry */,
+				87DC240D207CEF2B00A077BB /* TipViewDemo */,
+				87DC2426207CEF2B00A077BB /* TipViewDemoTests */,
+				87DC2431207CEF2B00A077BB /* TipViewDemoUITests */,
+				87DC240C207CEF2B00A077BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87DC240C207CEF2B00A077BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87DC240B207CEF2B00A077BB /* TipViewDemo.app */,
+				87DC2423207CEF2B00A077BB /* TipViewDemoTests.xctest */,
+				87DC242E207CEF2B00A077BB /* TipViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87DC240D207CEF2B00A077BB /* TipViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				87DC240E207CEF2B00A077BB /* AppDelegate.h */,
+				87DC240F207CEF2B00A077BB /* AppDelegate.m */,
+				87DC2411207CEF2B00A077BB /* ViewController.h */,
+				87DC2412207CEF2B00A077BB /* ViewController.m */,
+				87DC2414207CEF2B00A077BB /* Main.storyboard */,
+				87DC2417207CEF2B00A077BB /* Assets.xcassets */,
+				87DC2419207CEF2B00A077BB /* LaunchScreen.storyboard */,
+				87DC241C207CEF2B00A077BB /* Info.plist */,
+				87DC241D207CEF2B00A077BB /* main.m */,
+			);
+			path = TipViewDemo;
+			sourceTree = "<group>";
+		};
+		87DC2426207CEF2B00A077BB /* TipViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				87DC2427207CEF2B00A077BB /* TipViewDemoTests.m */,
+				87DC2429207CEF2B00A077BB /* Info.plist */,
+			);
+			path = TipViewDemoTests;
+			sourceTree = "<group>";
+		};
+		87DC2431207CEF2B00A077BB /* TipViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87DC2432207CEF2B00A077BB /* TipViewDemoUITests.m */,
+				87DC2434207CEF2B00A077BB /* Info.plist */,
+			);
+			path = TipViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		87DC2456207CF12C00A077BB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				87DC2457207CF12C00A077BB /* LICENSE */,
+				87DC2458207CF12C00A077BB /* Masonry */,
+				87DC2472207CF12C00A077BB /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		87DC2458207CF12C00A077BB /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				87DC2459207CF12C00A077BB /* MASCompositeConstraint.h */,
+				87DC245A207CF12C00A077BB /* NSLayoutConstraint+MASDebugAdditions.m */,
+				87DC245B207CF12C00A077BB /* MASConstraint+Private.h */,
+				87DC245C207CF12C00A077BB /* MASLayoutConstraint.h */,
+				87DC245D207CF12C00A077BB /* NSArray+MASShorthandAdditions.h */,
+				87DC245E207CF12C00A077BB /* MASConstraintMaker.h */,
+				87DC245F207CF12C00A077BB /* View+MASAdditions.h */,
+				87DC2460207CF12C00A077BB /* NSArray+MASAdditions.h */,
+				87DC2461207CF12C00A077BB /* MASUtilities.h */,
+				87DC2462207CF12C00A077BB /* MASViewAttribute.h */,
+				87DC2463207CF12C00A077BB /* ViewController+MASAdditions.m */,
+				87DC2464207CF12C00A077BB /* MASViewConstraint.h */,
+				87DC2465207CF12C00A077BB /* MASConstraint.h */,
+				87DC2466207CF12C00A077BB /* NSLayoutConstraint+MASDebugAdditions.h */,
+				87DC2467207CF12C00A077BB /* MASCompositeConstraint.m */,
+				87DC2468207CF12C00A077BB /* MASConstraintMaker.m */,
+				87DC2469207CF12C00A077BB /* MASLayoutConstraint.m */,
+				87DC246A207CF12C00A077BB /* NSArray+MASAdditions.m */,
+				87DC246B207CF12C00A077BB /* View+MASAdditions.m */,
+				87DC246C207CF12C00A077BB /* View+MASShorthandAdditions.h */,
+				87DC246D207CF12C00A077BB /* Masonry.h */,
+				87DC246E207CF12C00A077BB /* MASConstraint.m */,
+				87DC246F207CF12C00A077BB /* ViewController+MASAdditions.h */,
+				87DC2470207CF12C00A077BB /* MASViewConstraint.m */,
+				87DC2471207CF12C00A077BB /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87DC240A207CEF2B00A077BB /* TipViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DC2437207CEF2B00A077BB /* Build configuration list for PBXNativeTarget "TipViewDemo" */;
+			buildPhases = (
+				87DC2407207CEF2B00A077BB /* Sources */,
+				87DC2408207CEF2B00A077BB /* Frameworks */,
+				87DC2409207CEF2B00A077BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipViewDemo;
+			productName = TipViewDemo;
+			productReference = 87DC240B207CEF2B00A077BB /* TipViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87DC2422207CEF2B00A077BB /* TipViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DC243A207CEF2B00A077BB /* Build configuration list for PBXNativeTarget "TipViewDemoTests" */;
+			buildPhases = (
+				87DC241F207CEF2B00A077BB /* Sources */,
+				87DC2420207CEF2B00A077BB /* Frameworks */,
+				87DC2421207CEF2B00A077BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87DC2425207CEF2B00A077BB /* PBXTargetDependency */,
+			);
+			name = TipViewDemoTests;
+			productName = TipViewDemoTests;
+			productReference = 87DC2423207CEF2B00A077BB /* TipViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87DC242D207CEF2B00A077BB /* TipViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DC243D207CEF2B00A077BB /* Build configuration list for PBXNativeTarget "TipViewDemoUITests" */;
+			buildPhases = (
+				87DC242A207CEF2B00A077BB /* Sources */,
+				87DC242B207CEF2B00A077BB /* Frameworks */,
+				87DC242C207CEF2B00A077BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87DC2430207CEF2B00A077BB /* PBXTargetDependency */,
+			);
+			name = TipViewDemoUITests;
+			productName = TipViewDemoUITests;
+			productReference = 87DC242E207CEF2B00A077BB /* TipViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87DC2403207CEF2B00A077BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "陈浩";
+				TargetAttributes = {
+					87DC240A207CEF2B00A077BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					87DC2422207CEF2B00A077BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87DC240A207CEF2B00A077BB;
+					};
+					87DC242D207CEF2B00A077BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87DC240A207CEF2B00A077BB;
+					};
+				};
+			};
+			buildConfigurationList = 87DC2406207CEF2B00A077BB /* Build configuration list for PBXProject "TipViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87DC2402207CEF2B00A077BB;
+			productRefGroup = 87DC240C207CEF2B00A077BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87DC240A207CEF2B00A077BB /* TipViewDemo */,
+				87DC2422207CEF2B00A077BB /* TipViewDemoTests */,
+				87DC242D207CEF2B00A077BB /* TipViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87DC2409207CEF2B00A077BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC241B207CEF2B00A077BB /* LaunchScreen.storyboard in Resources */,
+				87DC2418207CEF2B00A077BB /* Assets.xcassets in Resources */,
+				87DC247E207CF12C00A077BB /* README.md in Resources */,
+				87DC2473207CF12C00A077BB /* LICENSE in Resources */,
+				87DC2416207CEF2B00A077BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC2421207CEF2B00A077BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC242C207CEF2B00A077BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87DC2407207CEF2B00A077BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC2474207CF12C00A077BB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				87DC2413207CEF2B00A077BB /* ViewController.m in Sources */,
+				87DC247B207CF12C00A077BB /* MASConstraint.m in Sources */,
+				87DC247C207CF12C00A077BB /* MASViewConstraint.m in Sources */,
+				87DC2475207CF12C00A077BB /* ViewController+MASAdditions.m in Sources */,
+				87DC247D207CF12C00A077BB /* MASViewAttribute.m in Sources */,
+				8737FFDF208D75C100E8E184 /* Tooltip.m in Sources */,
+				8737FFE2208D75C100E8E184 /* UIView+TipView.m in Sources */,
+				87DC2476207CF12C00A077BB /* MASCompositeConstraint.m in Sources */,
+				87DC247A207CF12C00A077BB /* View+MASAdditions.m in Sources */,
+				8737FFE3208D75C100E8E184 /* TooltipFlow.m in Sources */,
+				8737FFE4208D75C100E8E184 /* CHPopTipView.m in Sources */,
+				8737FFE1208D75C100E8E184 /* UIViewController+TipView.m in Sources */,
+				8737FFE0208D75C100E8E184 /* CHPopTipViewMarkView.m in Sources */,
+				87DC2478207CF12C00A077BB /* MASLayoutConstraint.m in Sources */,
+				8737FFDE208D75C100E8E184 /* TooltipManager.m in Sources */,
+				87DC2477207CF12C00A077BB /* MASConstraintMaker.m in Sources */,
+				87DC241E207CEF2B00A077BB /* main.m in Sources */,
+				87DC2479207CF12C00A077BB /* NSArray+MASAdditions.m in Sources */,
+				87DC2410207CEF2B00A077BB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC241F207CEF2B00A077BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC2428207CEF2B00A077BB /* TipViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DC242A207CEF2B00A077BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DC2433207CEF2B00A077BB /* TipViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87DC2425207CEF2B00A077BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87DC240A207CEF2B00A077BB /* TipViewDemo */;
+			targetProxy = 87DC2424207CEF2B00A077BB /* PBXContainerItemProxy */;
+		};
+		87DC2430207CEF2B00A077BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87DC240A207CEF2B00A077BB /* TipViewDemo */;
+			targetProxy = 87DC242F207CEF2B00A077BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87DC2414207CEF2B00A077BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DC2415207CEF2B00A077BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87DC2419207CEF2B00A077BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DC241A207CEF2B00A077BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87DC2435207CEF2B00A077BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87DC2436207CEF2B00A077BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87DC2438207CEF2B00A077BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CH.TipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87DC2439207CEF2B00A077BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TipViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CH.TipViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87DC243B207CEF2B00A077BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CH.TipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipViewDemo.app/TipViewDemo";
+			};
+			name = Debug;
+		};
+		87DC243C207CEF2B00A077BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CH.TipViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TipViewDemo.app/TipViewDemo";
+			};
+			name = Release;
+		};
+		87DC243E207CEF2B00A077BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CH.TipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TipViewDemo;
+			};
+			name = Debug;
+		};
+		87DC243F207CEF2B00A077BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TipViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CH.TipViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TipViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87DC2406207CEF2B00A077BB /* Build configuration list for PBXProject "TipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC2435207CEF2B00A077BB /* Debug */,
+				87DC2436207CEF2B00A077BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DC2437207CEF2B00A077BB /* Build configuration list for PBXNativeTarget "TipViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC2438207CEF2B00A077BB /* Debug */,
+				87DC2439207CEF2B00A077BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DC243A207CEF2B00A077BB /* Build configuration list for PBXNativeTarget "TipViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC243B207CEF2B00A077BB /* Debug */,
+				87DC243C207CEF2B00A077BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DC243D207CEF2B00A077BB /* Build configuration list for PBXNativeTarget "TipViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DC243E207CEF2B00A077BB /* Debug */,
+				87DC243F207CEF2B00A077BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87DC2403207CEF2B00A077BB /* Project object */;
+}
